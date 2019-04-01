@@ -16,7 +16,7 @@
     "babel-preset-gatsby": "^0.1.10",
     "browserslist": "^4.5.3",
     "classnames": "^2.2.6",
-    "core-js": "^3.0.0",
+    "core-js": "^2.6.5",
     "cssnano": "^4.1.8",
     "gatsby": "^2.3.4",
     "gatsby-image": "^2.0.35",
@@ -25,6 +25,7 @@
     "gatsby-plugin-postcss": "^2.0.7",
     "gatsby-plugin-purgecss": "^3.1.1",
     "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-robots-txt": "^1.4.0",
     "gatsby-plugin-root-import": "^2.0.4",
     "gatsby-plugin-sharp": "^2.0.32",
     "gatsby-plugin-sitemap": "^2.0.11",
@@ -65,7 +66,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -78,18 +79,16 @@
   },
   "lint-staged": {
     "**/*.js": [
-      "prettier-eslint --write --config \"./.prettierrc.js\" --eslint-config-path \"./.eslintrc.js\"",
       "eslint --fix",
       "git add"
     ],
     "**/*.css": [
-      "prettier-stylelint --write",
       "stylelint --fix",
       "git add"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Akurganow/akurganow.ru"
+    "url": "https://github.com/Akurganow/gatsby-starter"
   }
 }
