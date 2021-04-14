@@ -19,7 +19,7 @@
     "core-js": "^2.6.5",
     "cssnano": "^4.1.8",
     "gatsby": "^2.3.4",
-    "gatsby-image": "^2.0.35",
+    "gatsby-image": "^3.3.0",
     "gatsby-plugin-manifest": "^2.0.26",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-postcss": "^2.3.11",
