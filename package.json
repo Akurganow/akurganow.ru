@@ -10,7 +10,7 @@
     "@babel/plugin-transform-runtime": "^7.4.0",
     "@reach/router": "^1.2.1",
     "@svgr/webpack": "^4.1.0",
-    "autoprefixer": "^9.5.0",
+    "autoprefixer": "^9.8.7",
     "babel-plugin-react-local": "^0.5.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.21",
     "babel-preset-gatsby": "^0.1.10",
